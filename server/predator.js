@@ -1,4 +1,5 @@
-class EverythingEater extends LivingCreature {
+livingCreature = require("./livingcreature")
+module.exports = class EverythingEater extends livingCreature {
   constructor(x, y, index){
     super(x, y, index);
     this.countEat = 0
